@@ -1,0 +1,83 @@
+/* Reset styles for consistency */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #1a1a1a; /* Dark background for a VR feel */
+  color: #ffffff;
+  line-height: 1.6;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Orbitron', sans-serif;
+  color: #39ff14; /* Bright green for headings */
+}
+
+/* Button styling */
+button {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ff4141; /* Red button background */
+  border: none;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff6b6b; /* Lighter red on hover */
+}
+
+/* Link styling */
+a {
+  color: #39ff14; /* Green links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff4141; /* Red on hover for contrast */
+}
+
+/* Container styling */
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* Form styling */
+.form-group {
+  margin: 1rem 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #39ff14; /* Label color in green */
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ff4141; /* Red input border */
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #1a1a1a;
+}
+
+input:focus {
+  border-color: #39ff14; /* Green border on focus */
+  outline: none;
+}
